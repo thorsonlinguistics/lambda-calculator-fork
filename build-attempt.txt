@@ -1,0 +1,802 @@
+Buildfile: /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+    [javac] Compiling 58 source files to /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/build/classes
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionPanel.java:424: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(this);
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionPanel.java:424: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(this);
+    [javac]                                                                         ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionPanel.java:430: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jPanel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 459, Short.MAX_VALUE)
+    [javac]                                                  ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionPanel.java:427: error: package org.jdesktop.layout does not exist
+    [javac]             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionPanel.java:435: error: package org.jdesktop.layout does not exist
+    [javac]             .add(org.jdesktop.layout.GroupLayout.TRAILING, layout.createSequentialGroup()
+    [javac]                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionPanel.java:436: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jPanel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
+    [javac]                                                  ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionPanel.java:434: error: package org.jdesktop.layout does not exist
+    [javac]             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/lf/LambdaAbstractionRule.java:147: warning: [unchecked] unchecked call to HashSet(Collection<? extends E>) as a member of the raw type HashSet
+    [javac]             Set variablesInUse = new HashSet(g.values());
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class HashSet
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionTest.java:61: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(getContentPane());
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionTest.java:61: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(getContentPane());
+    [javac]                                                                         ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionTest.java:65: error: package org.jdesktop.layout does not exist
+    [javac]             .add(org.jdesktop.layout.GroupLayout.TRAILING, layout.createSequentialGroup()
+    [javac]                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionTest.java:64: error: package org.jdesktop.layout does not exist
+    [javac]             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/RuleSelectionTest.java:75: error: package org.jdesktop.layout does not exist
+    [javac]             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:226: warning: [unchecked] unchecked call to addElement(E) as a member of the raw type DefaultListModel
+    [javac]                         model.addElement(next.toString());
+    [javac]                                         ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class DefaultListModel
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:234: warning: [unchecked] unchecked call to addElement(E) as a member of the raw type DefaultListModel
+    [javac]                     model.addElement("This node has not yet been evaluated.");
+    [javac]                                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class DefaultListModel
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:236: warning: [unchecked] unchecked call to setModel(ListModel<E>) as a member of the raw type JList
+    [javac]                 jListNodeHistory.setModel(model);
+    [javac]                                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class JList
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:401: warning: [unchecked] unchecked call to setModel(ListModel<E>) as a member of the raw type JList
+    [javac]         jListNodeHistory.setModel(new DefaultListModel());
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class JList
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:920: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelEnterExpressionsLayout = new org.jdesktop.layout.GroupLayout(jPanelEnterExpressions);
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:920: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelEnterExpressionsLayout = new org.jdesktop.layout.GroupLayout(jPanelEnterExpressions);
+    [javac]                                                                                               ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:935: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpConditionals, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 229, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))))
+    [javac]                                                                          ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:935: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpConditionals, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 229, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))))
+    [javac]                                                                                                                               ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:934: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpNot, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 229, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                                 ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:934: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpNot, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 229, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                                                                                      ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:933: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpLambda, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+    [javac]                                                                    ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:933: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpLambda, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+    [javac]                                                                                                                  ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:932: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpBinaries, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+    [javac]                                                                      ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:932: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpBinaries, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+    [javac]                                                                                                                    ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:931: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpBinders, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+    [javac]                                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:931: error: package org.jdesktop.layout does not exist
+    [javac]                             .add(lblHelpBinders, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+    [javac]                                                                                                                   ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:930: error: package org.jdesktop.layout does not exist
+    [javac]                         .add(jPanelEnterExpressionsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING, false)
+    [javac]                                                                                                  ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:927: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(lblHelpHeader, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+    [javac]                                                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:927: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(lblHelpHeader, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+    [javac]                                                                                                          ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:926: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jPanelEnterExpressionsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                                          ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:923: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelEnterExpressionsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                                 ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:951: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:949: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:947: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:945: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:943: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:942: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(lblHelpHeader, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                        ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:942: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(lblHelpHeader, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                                                                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:939: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelEnterExpressionsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                                 ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1102: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelDefaultLayout = new org.jdesktop.layout.GroupLayout(jPanelDefault);
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1102: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelDefaultLayout = new org.jdesktop.layout.GroupLayout(jPanelDefault);
+    [javac]                                                                                      ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1105: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelDefaultLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                        ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1109: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelDefaultLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                        ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1151: warning: [unchecked] unchecked call to setModel(ListModel<E>) as a member of the raw type JList
+    [javac]         jListNodeHistory.setModel(new javax.swing.AbstractListModel() {
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class JList
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1160: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelNodeHistoryLayout = new org.jdesktop.layout.GroupLayout(jPanelNodeHistory);
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1160: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelNodeHistoryLayout = new org.jdesktop.layout.GroupLayout(jPanelNodeHistory);
+    [javac]                                                                                          ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1164: error: package org.jdesktop.layout does not exist
+    [javac]             .add(org.jdesktop.layout.GroupLayout.TRAILING, jPanelNodeHistoryLayout.createSequentialGroup()
+    [javac]                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1168: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(org.jdesktop.layout.GroupLayout.LEADING, jLabel4, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 614, Short.MAX_VALUE))
+    [javac]                                             ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1168: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(org.jdesktop.layout.GroupLayout.LEADING, jLabel4, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 614, Short.MAX_VALUE))
+    [javac]                                                                                               ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1167: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(org.jdesktop.layout.GroupLayout.LEADING, jScrollPaneNodeHistory, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 707, Short.MAX_VALUE)
+    [javac]                                             ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1167: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(org.jdesktop.layout.GroupLayout.LEADING, jScrollPaneNodeHistory, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 707, Short.MAX_VALUE)
+    [javac]                                                                                                              ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1166: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jPanelNodeHistoryLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING)
+    [javac]                                                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1163: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelNodeHistoryLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1176: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jScrollPaneNodeHistory, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
+    [javac]                                                                 ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1175: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1172: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelNodeHistoryLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1202: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelLatexLayout = new org.jdesktop.layout.GroupLayout(jPanelLatex);
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1202: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelLatexLayout = new org.jdesktop.layout.GroupLayout(jPanelLatex);
+    [javac]                                                                                    ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1208: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jScrollPaneLatex, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 626, Short.MAX_VALUE))
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1207: error: package org.jdesktop.layout does not exist
+    [javac]             .add(jPanelLatexLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1205: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelLatexLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                      ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1214: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jScrollPaneLatex, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE))
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1213: error: package org.jdesktop.layout does not exist
+    [javac]             .add(jPanelLatexLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1211: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelLatexLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                      ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1225: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelBlankLayout = new org.jdesktop.layout.GroupLayout(jPanelBlank);
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1225: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanelBlankLayout = new org.jdesktop.layout.GroupLayout(jPanelBlank);
+    [javac]                                                                                    ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1228: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelBlankLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                      ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TrainingWindow.java:1232: error: package org.jdesktop.layout does not exist
+    [javac]             jPanelBlankLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                      ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:147: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanel2Layout = new org.jdesktop.layout.GroupLayout(jPanel2);
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:147: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout jPanel2Layout = new org.jdesktop.layout.GroupLayout(jPanel2);
+    [javac]                                                                                ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:155: error: package org.jdesktop.layout does not exist
+    [javac]             .add(jScrollPane2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 641, Short.MAX_VALUE)
+    [javac]                                                   ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:154: error: package org.jdesktop.layout does not exist
+    [javac]             .add(jScrollPane3, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 641, Short.MAX_VALUE)
+    [javac]                                                   ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:150: error: package org.jdesktop.layout does not exist
+    [javac]             jPanel2Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                  ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:159: error: package org.jdesktop.layout does not exist
+    [javac]             .add(org.jdesktop.layout.GroupLayout.TRAILING, jPanel2Layout.createSequentialGroup()
+    [javac]                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:164: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jScrollPane3, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 101, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+    [javac]                                                       ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:164: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jScrollPane3, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 101, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+    [javac]                                                                                                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:163: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:161: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:160: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jScrollPane2, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 283, Short.MAX_VALUE)
+    [javac]                                                       ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:158: error: package org.jdesktop.layout does not exist
+    [javac]             jPanel2Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                  ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:191: warning: [unchecked] unchecked call to DefaultComboBoxModel(E[]) as a member of the raw type DefaultComboBoxModel
+    [javac]         jListAssignments.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class DefaultComboBoxModel
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:191: warning: [unchecked] unchecked call to setModel(ComboBoxModel<E>) as a member of the raw type JComboBox
+    [javac]         jListAssignments.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class JComboBox
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:244: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(getContentPane());
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:244: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(getContentPane());
+    [javac]                                                                         ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:258: error: package org.jdesktop.layout does not exist
+    [javac]                         .add(jListAssignments, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                                   ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:258: error: package org.jdesktop.layout does not exist
+    [javac]                         .add(jListAssignments, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                                                                                   ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:258: error: package org.jdesktop.layout does not exist
+    [javac]                         .add(jListAssignments, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                                                                                                                                 ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:255: error: package org.jdesktop.layout does not exist
+    [javac]                         .add(jLabelCurrentDirectory, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 605, Short.MAX_VALUE)
+    [javac]                                                                         ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:252: error: package org.jdesktop.layout does not exist
+    [javac]                         .add(jSplitPane1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 677, Short.MAX_VALUE)
+    [javac]                                                              ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:250: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                                    ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:247: error: package org.jdesktop.layout does not exist
+    [javac]             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:269: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jSplitPane1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 420, Short.MAX_VALUE)
+    [javac]                                                      ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:268: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:267: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jListAssignments, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:267: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jListAssignments, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:267: error: package org.jdesktop.layout does not exist
+    [javac]                 .add(jListAssignments, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+    [javac]                                                                                                                                                         ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:266: error: package org.jdesktop.layout does not exist
+    [javac]                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+    [javac]                                                     ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:262: error: package org.jdesktop.layout does not exist
+    [javac]             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+    [javac]                                                           ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:382: warning: [unchecked] unchecked call to add(E) as a member of the raw type Vector
+    [javac]                         assignmentList.add(ex.getTitle());
+    [javac]                                           ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:387: warning: [unchecked] unchecked method invocation: method sort in class Collections is applied to given types
+    [javac]         Collections.sort(assignmentList);
+    [javac]                         ^
+    [javac]   required: List<T>
+    [javac]   found: Vector
+    [javac]   where T is a type-variable:
+    [javac]     T extends Comparable<? super T> declared in method <T>sort(List<T>)
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:387: warning: [unchecked] unchecked conversion
+    [javac]         Collections.sort(assignmentList);
+    [javac]                          ^
+    [javac]   required: List<T>
+    [javac]   found:    Vector
+    [javac]   where T is a type-variable:
+    [javac]     T extends Comparable<? super T> declared in method <T>sort(List<T>)
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:390: warning: [unchecked] unchecked call to addElement(E) as a member of the raw type DefaultComboBoxModel
+    [javac]         model.addElement("All Assignments");
+    [javac]                         ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class DefaultComboBoxModel
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:392: warning: [unchecked] unchecked call to addElement(E) as a member of the raw type DefaultComboBoxModel
+    [javac]             model.addElement(assignmentList.get(i));
+    [javac]                             ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class DefaultComboBoxModel
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:394: warning: [unchecked] unchecked call to setModel(ComboBoxModel<E>) as a member of the raw type JComboBox
+    [javac]         jListAssignments.setModel(model);
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class JComboBox
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:463: warning: [unchecked] unchecked call to add(E) as a member of the raw type Vector
+    [javac]                 exercises.add(entry);
+    [javac]                              ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:467: warning: [unchecked] unchecked method invocation: method sort in class Collections is applied to given types
+    [javac]         Collections.sort(exercises);
+    [javac]                         ^
+    [javac]   required: List<T>
+    [javac]   found: Vector
+    [javac]   where T is a type-variable:
+    [javac]     T extends Comparable<? super T> declared in method <T>sort(List<T>)
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:467: warning: [unchecked] unchecked conversion
+    [javac]         Collections.sort(exercises);
+    [javac]                          ^
+    [javac]   required: List<T>
+    [javac]   found:    Vector
+    [javac]   where T is a type-variable:
+    [javac]     T extends Comparable<? super T> declared in method <T>sort(List<T>)
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:497: warning: [unchecked] unchecked call to add(E) as a member of the raw type ArrayList
+    [javac]                 scores.add(entry.exFile.getPointsCorrect());
+    [javac]                           ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:552: warning: [unchecked] unchecked method invocation: method sort in class Collections is applied to given types
+    [javac]         Collections.sort(sortedScores);
+    [javac]                         ^
+    [javac]   required: List<T>
+    [javac]   found: ArrayList
+    [javac]   where T is a type-variable:
+    [javac]     T extends Comparable<? super T> declared in method <T>sort(List<T>)
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:552: warning: [unchecked] unchecked conversion
+    [javac]         Collections.sort(sortedScores);
+    [javac]                          ^
+    [javac]   required: List<T>
+    [javac]   found:    ArrayList
+    [javac]   where T is a type-variable:
+    [javac]     T extends Comparable<? super T> declared in method <T>sort(List<T>)
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:680: warning: [unchecked] unchecked call to add(E) as a member of the raw type Vector
+    [javac]             alist.add(jListAssignments.getSelectedItem());
+    [javac]                      ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/TeacherToolWindow.java:707: warning: [unchecked] unchecked call to add(E) as a member of the raw type ArrayList
+    [javac]                 scores.add(exf.getPointsCorrect());
+    [javac]                           ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/WelcomeWindow.java:218: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(getContentPane());
+    [javac]                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/WelcomeWindow.java:218: error: package org.jdesktop.layout does not exist
+    [javac]         org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(getContentPane());
+    [javac]                                                                         ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/WelcomeWindow.java:233: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(org.jdesktop.layout.GroupLayout.TRAILING, jLabelAffiliation, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 355, Short.MAX_VALUE))
+    [javac]                                             ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/WelcomeWindow.java:233: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(org.jdesktop.layout.GroupLayout.TRAILING, jLabelAffiliation, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 355, Short.MAX_VALUE))
+    [javac]                                                                                                          ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/WelcomeWindow.java:232: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(org.jdesktop.layout.GroupLayout.TRAILING, btnExit)
+    [javac]                                             ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/WelcomeWindow.java:231: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(jLabelVersion, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 355, Short.MAX_VALUE)
+    [javac]                                                            ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/gui/WelcomeWindow.java:230: error: package org.jdesktop.layout does not exist
+    [javac]                     .add(btnExercise, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 355, Short.MAX_VALUE)
+    [javac]                                                          ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/lf/BracketedTreeParser.java:146: warning: [unchecked] unchecked call to push(E) as a member of the raw type Stack
+    [javac]                         stack.push(curnode);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Stack
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/lf/BracketedTreeParser.java:410: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type HashMap
+    [javac]                 traceTypes.put(child.getIndex(), child.getType());
+    [javac]                               ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/lf/MeaningBracketExpr.java:208: warning: [unchecked] unchecked call to add(E) as a member of the raw type ArrayList
+    [javac]             objs.add(expr);
+    [javac]                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/lf/MeaningBracketExpr.java:237: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]             replacements.put(mb, key);
+    [javac]                             ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/lf/MeaningBracketExpr.java:295: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]             replacements.put(key, mb);
+    [javac]                             ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/lf/MeaningBracketExpr.java:302: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]         nodeToPath.put(node, path);
+    [javac]                       ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/lf/MeaningBracketExpr.java:303: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]         pathToNode.put(path, node);
+    [javac]                       ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binary.java:96: warning: [unchecked] unchecked call to addAll(Collection<? extends E>) as a member of the raw type AbstractCollection
+    [javac]         ret.addAll(getLeft().getVars(unboundOnly));
+    [javac]                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class AbstractCollection
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binary.java:97: warning: [unchecked] unchecked call to addAll(Collection<? extends E>) as a member of the raw type AbstractCollection
+    [javac]         ret.addAll(getRight().getVars(unboundOnly));
+    [javac]                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class AbstractCollection
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binary.java:115: warning: [unchecked] unchecked call to add(E) as a member of the raw type Vector
+    [javac]         result.add(this.getLeft());
+    [javac]                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binary.java:116: warning: [unchecked] unchecked call to add(E) as a member of the raw type Vector
+    [javac]         result.add(this.getRight());
+    [javac]                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/NAry.java:124: warning: [unchecked] unchecked call to addAll(Collection<? extends E>) as a member of the raw type AbstractCollection
+    [javac]             ret.addAll(exprs[i].getVars(unboundOnly));
+    [javac]                       ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class AbstractCollection
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/NAry.java:177: warning: [unchecked] unchecked call to <T>toArray(T[]) as a member of the raw type List
+    [javac]         return createFromSubExpressions((Expr[])subExpressions.toArray(new Expr[0]));
+    [javac]                                                                       ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in method <T>toArray(T[])
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:94: warning: [unchecked] unchecked call to HashMap(Map<? extends K,? extends V>) as a member of the raw type HashMap
+    [javac]             thisMap = (thisMap == null) ? new HashMap() : new HashMap(thisMap);
+    [javac]                                                           ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:95: warning: [unchecked] unchecked call to HashMap(Map<? extends K,? extends V>) as a member of the raw type HashMap
+    [javac]             otherMap = (otherMap == null) ? new HashMap() :  new HashMap(otherMap);
+    [javac]                                                              ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:102: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]             thisMap.put(this.getVariable(), freshObj);
+    [javac]                        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:103: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]             otherMap.put(b.getVariable(), freshObj);
+    [javac]                         ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:134: warning: [unchecked] unchecked call to add(E) as a member of the raw type Vector
+    [javac]         result.add(this.getVariable());
+    [javac]                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:135: warning: [unchecked] unchecked call to add(E) as a member of the raw type Vector
+    [javac]         result.add(this.getInnerExpr());
+    [javac]                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:182: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]             ret.add(getVariable()); // in case it is vacuous
+    [javac]                    ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:214: warning: [unchecked] unchecked call to HashSet(Collection<? extends E>) as a member of the raw type HashSet
+    [javac]         Set binders2 = new HashSet(binders);
+    [javac]                        ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class HashSet
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:215: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]         binders2.add(this);
+    [javac]                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:230: warning: [unchecked] unchecked call to HashSet(Collection<? extends E>) as a member of the raw type HashSet
+    [javac]             variablesInUse = new HashSet(variablesInUse);
+    [javac]                              ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class HashSet
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:231: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]             variablesInUse.add(v);
+    [javac]                               ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:232: warning: [unchecked] unchecked call to HashMap(Map<? extends K,? extends V>) as a member of the raw type HashMap
+    [javac]             updates = new HashMap(updates);
+    [javac]                       ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:233: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]             updates.put(getVariable(), v);
+    [javac]                        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:248: warning: [unchecked] unchecked call to HashSet(Collection<? extends E>) as a member of the raw type HashSet
+    [javac]                 variablesInUse = new HashSet(variablesInUse);
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class HashSet
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:249: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]                 variablesInUse.add(v);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:253: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]                 variablesInUse.add(v);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:254: warning: [unchecked] unchecked call to HashMap(Map<? extends K,? extends V>) as a member of the raw type HashMap
+    [javac]                 updates = new HashMap(updates);
+    [javac]                           ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:255: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]                 updates.put(getVariable(), v);
+    [javac]                            ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:261: warning: [unchecked] unchecked call to HashSet(Collection<? extends E>) as a member of the raw type HashSet
+    [javac]                 variablesInUse = new HashSet(variablesInUse);
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class HashSet
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:262: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]                 variablesInUse.add(v);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:266: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]                 variablesInUse.add(v);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:267: warning: [unchecked] unchecked call to HashMap(Map<? extends K,? extends V>) as a member of the raw type HashMap
+    [javac]                 updates = new HashMap(updates);
+    [javac]                           ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Binder.java:268: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]                 updates.put(getVariable(), v);
+    [javac]                            ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/Unary.java:103: warning: [unchecked] unchecked call to add(E) as a member of the raw type Vector
+    [javac]         result.add(this.getInnerExpr());
+    [javac]                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:121: warning: [unchecked] unchecked call to HashMap(Map<? extends K,? extends V>) as a member of the raw type HashMap
+    [javac]         thisMap = (thisMap == null) ? new HashMap() : new HashMap(thisMap);
+    [javac]                                                       ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:122: warning: [unchecked] unchecked call to HashMap(Map<? extends K,? extends V>) as a member of the raw type HashMap
+    [javac]         otherMap = (otherMap == null) ? new HashMap() :  new HashMap(otherMap);
+    [javac]                                                          ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:133: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]             thisMap.put(v1, freshObj);
+    [javac]                        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:134: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]             otherMap.put(v2, freshObj);
+    [javac]                         ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:149: warning: [unchecked] unchecked call to removeAll(Collection<?>) as a member of the raw type Set
+    [javac]             ret.removeAll(getLeft().getVars(true));
+    [javac]                          ^
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:151: warning: [unchecked] unchecked call to addAll(Collection<? extends E>) as a member of the raw type Set
+    [javac]             ret.addAll(getLeft().getVars(false));
+    [javac]                       ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:166: warning: [unchecked] unchecked call to HashSet(Collection<? extends E>) as a member of the raw type HashSet
+    [javac]         Set binders2 = new HashSet(binders);
+    [javac]                        ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class HashSet
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:167: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]         binders2.add(this);
+    [javac]                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:185: warning: [unchecked] unchecked call to HashSet(Collection<? extends E>) as a member of the raw type HashSet
+    [javac]                 variablesInUse = new HashSet(variablesInUse);
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class HashSet
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:186: warning: [unchecked] unchecked call to add(E) as a member of the raw type Set
+    [javac]                 variablesInUse.add(vnew);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Set
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:187: warning: [unchecked] unchecked call to HashMap(Map<? extends K,? extends V>) as a member of the raw type HashMap
+    [javac]                 updates = new HashMap(updates);
+    [javac]                           ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/SetWithGenerator.java:188: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]                 updates.put(v, vnew);
+    [javac]                            ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/TypeParser.java:118: warning: [unchecked] unchecked call to push(E) as a member of the raw type Stack
+    [javac]                         stack.push(current);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Stack
+    [javac] /home/jacob/Documents/Linguistics/Semantics/Apps/LambdaCalculator/src/lambdacalc/logic/TypeParser.java:141: warning: [unchecked] unchecked call to push(E) as a member of the raw type Stack
+    [javac]                     stack.push(current);
+    [javac]                               ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Stack
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 100 errors
+    [javac] 73 warnings

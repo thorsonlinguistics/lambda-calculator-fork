@@ -1,0 +1,34 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>../dist/LambdaCalculator.jar</jar>
+  <outfile>../apps/windows-teacher/Lambda Calculator TE.exe</outfile>
+  <errTitle>Lambda</errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>../images/hat-logo-teacher.ico</icon>
+  <jre>
+    <path></path>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+  <versionInfo>
+    <fileVersion>2.0.0.0</fileVersion>
+    <txtFileVersion>2.0.0</txtFileVersion>
+    <fileDescription>Lambda Calculator: The Semantics Tool</fileDescription>
+    <copyright>Copyright (2007) Lucas Champollion and Joshua Tauberer</copyright>
+    <productVersion>2.0.0.0</productVersion>
+    <txtProductVersion>2.0.0</txtProductVersion>
+    <productName>Lambda Calculator: The Semantics Tool</productName>
+    <companyName>The University of Pennsylvania, New York University</companyName>
+    <internalName>Lambda</internalName>
+    <originalFilename>Lambda.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
