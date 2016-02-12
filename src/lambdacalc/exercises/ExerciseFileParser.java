@@ -204,10 +204,6 @@ public class ExerciseFileParser {
                     file.getRules().add(
                             lambdacalc.lf.FunctionCompositionRule.INSTANCE
                     );
-                //} else if (rule.equals("intensional trace")) {
-                //    file.getRules().add(
-                //            lambdacalc.lf.IntensionalTraceRule.INSTANCE
-                //    );
                 }
                 else
                     throw new ExerciseFileFormatException(
