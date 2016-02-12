@@ -29,10 +29,15 @@
 package lambdacalc.lf;
 
 
+import lambdacalc.gui.TrainingWindow; // Added for intensional traces
+import lambdacalc.logic.CompositeType; // Added for intensional traces
 import lambdacalc.logic.Expr;
+import lambdacalc.logic.FunApp; // Added for intensional traces
 import lambdacalc.logic.GApp;
+import lambdacalc.logic.IdentifierTyper; // Added for intensional traces
 import lambdacalc.logic.Type;
 import lambdacalc.logic.TypeEvaluationException;
+import lambdacalc.logic.Var; // Added for intensional traces
 
 /**
  * A trace or a pronoun.
@@ -69,7 +74,8 @@ public class Trace extends Terminal {
         return this.getLabel().equals(SYMBOL);
     }
     
-    public Expr getMeaning(AssignmentFunction g) throws MeaningEvaluationException {
+    protected Expr getBaseMeaning(AssignmentFunction g) throws
+      MeaningEvaluationException {
         if (this.meaning != null) return this.meaning;
         Expr m;
         if (g == null) {
@@ -82,6 +88,30 @@ public class Trace extends Terminal {
             setMeaning(m);
             return m;
         }
+    }
+
+    public Expr getMeaning(AssignmentFunction g) throws
+      MeaningEvaluationException {
+        Expr baseMeaning = this.getBaseMeaning(g);
+        // return baseMeaning
+        // Comment out the following code to get rid of intensional trace rule
+        Type baseType;
+        try {
+          baseType = baseMeaning.getType();
+        } catch (TypeEvaluationException e) {
+          return baseMeaning;
+        }
+        if (baseType instanceof CompositeType) {
+          Type left = ((CompositeType)baseType).getLeft();
+          if (left.equals(Type.S)) {
+            IdentifierTyper typingConventions =
+              TrainingWindow.getCurrentTypingConventions();
+            Var var = typingConventions.getVarForType(Type.S, false, "w");
+            FunApp application = new FunApp(baseMeaning, var);
+            return application;
+          }
+        }
+        return baseMeaning;
     }
     
     public void setMeaning(Expr meaning) {
